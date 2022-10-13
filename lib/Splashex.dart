@@ -36,6 +36,11 @@ class MySplashState extends State<MySplash> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
+              Image(
+                image: AssetImage("assets/images/businesses.png"),
+                width: 200,
+                height: 200,
+              ),
               Text(
                 "My First App",
                 style: TextStyle(fontSize: 30, color: Colors.pink),
